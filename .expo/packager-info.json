@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": null,
-  "packagerPid": null,
+  "packagerPort": 19001,
+  "packagerPid": 22275,
   "expoServerNgrokUrl": "https://gp-nqi.rafaelgoulartb.megahackthon-flourish.exp.direct",
   "packagerNgrokUrl": "https://packager.gp-nqi.rafaelgoulartb.megahackthon-flourish.exp.direct",
-  "ngrokPid": 7284
+  "ngrokPid": 22303,
+  "webpackServerPort": null
 }

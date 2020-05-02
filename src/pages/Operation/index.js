@@ -16,6 +16,8 @@ import {
   TransferTextInfos,
   TransferTitle,
   TransferValue,
+  AddButton,
+  AddButtonText,
 } from '../../styles';
 
 import AntIcons from 'react-native-vector-icons/AntDesign';
@@ -75,6 +77,10 @@ export default function Page() {
           </TransferTextInfos>
         </TransferBox>
       </TransfersList>
+
+      <AddButton>
+        <AddButtonText>+</AddButtonText>
+      </AddButton>
     </LinearBackground>
   );
 }

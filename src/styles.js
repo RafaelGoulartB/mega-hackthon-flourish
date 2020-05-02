@@ -7,6 +7,7 @@ export const PageTitle = styled.Text`
   text-align: center;
 `;
 export const SaldoPontosContainer = styled.View`
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 `
@@ -80,6 +81,23 @@ export const TransferTitle = styled.Text`
 export const TransferValue = styled.Text`
   color: ${props => props.color};
   font-size: 20px;
+`;
+export const AddButton = styled.TouchableOpacity`
+  position: absolute;
+  bottom: 0;
+  background: #C6D936;
+  width: 59px;
+  height: 59px;
+  border-radius: 59px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+`;
+export const AddButtonText = styled.Text`
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
 `;
 
 // University

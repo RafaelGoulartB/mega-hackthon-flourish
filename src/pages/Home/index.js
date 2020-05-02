@@ -6,9 +6,17 @@ import {
   SaldoBox,
   SaldoText,
   PontosBox,
+  UserStatusContainer,
+  UserStatusImage,
+  UserStatusText,
+  UserNotificationsBox,
+  UserNotificationsTitle,
+  UserNotificationsDescription,
 } from '../../styles';
 
-export default function Home() {
+import MoneyIcon from '../../assets/money-with-wings.png'
+
+export default function Home({ navigation }) {
   return (
     <LinearBackground>
       <SaldoPontosContainer>
@@ -20,7 +28,28 @@ export default function Home() {
         </PontosBox>
       </SaldoPontosContainer>
 
-      <PageTitle>Home</PageTitle>
+      <UserStatusContainer>
+        <UserStatusImage source={MoneyIcon}/>
+        <UserStatusText>Você é muito consumista! Fique de olho nos gastos!</UserStatusText>
+      </UserStatusContainer>
+
+      <UserNotificationsBox background='#F19020'>
+        <UserNotificationsTitle color='#f5f5f5'>Dica do dia: para controlar seus gastos, faça 3 perguntas básicas!</UserNotificationsTitle>
+      </UserNotificationsBox>
+
+      <UserNotificationsBox background='#f5f5f5'>
+        <UserNotificationsTitle color='#000'>Novos conteúdos na Universidade!</UserNotificationsTitle>
+        <UserNotificationsDescription color='#32D9D9'>Blog da Economia, Portal do Investidor, entre outros.</UserNotificationsDescription>
+      </UserNotificationsBox>
+
+      <UserNotificationsBox background='#F25C69'>
+        <UserNotificationsTitle color='#f5f5f5'>Já preencheu seus gastos de hoje?</UserNotificationsTitle>
+      </UserNotificationsBox>
+
+      <UserNotificationsBox background='#f5f5f5'>
+        <UserNotificationsTitle color='#C6D936'>Faltam R$1.000,00 para alcançar seu sonho!</UserNotificationsTitle>
+      </UserNotificationsBox>
+
     </LinearBackground>
   );
 }

@@ -153,3 +153,38 @@ export const LessonPointValue = styled.Text`
   color: #32D9D9;
   font-size: 18px;
 `;
+
+// Home
+export const UserStatusContainer = styled.View`
+  margin-top: 64px;
+  margin-bottom: 32px;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+`;
+export const UserStatusImage = styled.Image`
+`;
+export const UserStatusText = styled.Text`
+  font-size: 18px;
+  line-height: 30px;
+  width: 70%;
+  color: #f5f5f5;
+`;
+export const UserNotificationsBox = styled.TouchableOpacity`
+  width: 85%;
+  background: ${props => props.background};
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding-right: 15px;
+  padding: 16px;
+`;
+export const UserNotificationsTitle = styled.Text`
+  font-size: 18px;
+  color: ${props => props.color};
+  line-height: 28px;
+`;
+export const UserNotificationsDescription = styled.Text`
+  font-size: 14px;
+  line-height: 28px;
+  color: ${props => props.color};
+`;

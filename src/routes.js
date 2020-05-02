@@ -10,6 +10,7 @@ const Tab = createMaterialBottomTabNavigator();
 
 import Page from './pages/page';
 import OperatrionPage from './pages/Operation';
+import UniversityPage from './pages/University';
 
 export default function Routes() {
   return (
@@ -61,7 +62,7 @@ export default function Routes() {
           />
           <Tab.Screen 
             name="Universidade" 
-            component={Page}
+            component={UniversityPage}
             options={{
               tabBarIcon: ({ color }) => (
                 <IoniconsIcons name="md-school" size={24} color={color}/>

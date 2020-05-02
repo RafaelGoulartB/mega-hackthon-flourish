@@ -8,8 +8,11 @@ import IoniconsIcons from 'react-native-vector-icons/Ionicons';
 
 const Tab = createMaterialBottomTabNavigator();
 
-import Page from './pages/page';
 import OperatrionPage from './pages/Operation';
+import UniversityPage from './pages/University';
+import DreamsPage from './pages/Dreams';
+import TimelinePage from './pages/Timeline';
+import HomePage from './pages/Home';
 
 export default function Routes() {
   return (
@@ -25,7 +28,7 @@ export default function Routes() {
       >
           <Tab.Screen 
             name="Ranking" 
-            component={Page}
+            component={TimelinePage}
             options={{
               tabBarIcon: ({ color }) => (
                 <SimpleLineIcons name="chart" size={22} color={color}/>
@@ -43,7 +46,7 @@ export default function Routes() {
           />
           <Tab.Screen 
             name="Início" 
-            component={Page}
+            component={HomePage}
             options={{
               tabBarIcon: ({ color }) => (
                 <IoniconsIcons name="md-home" size={24} color={color}/>
@@ -52,7 +55,7 @@ export default function Routes() {
           />
           <Tab.Screen 
             name="Recompensas" 
-            component={Page}
+            component={DreamsPage}
             options={{
               tabBarIcon: ({ color }) => (
                 <IoniconsIcons name="md-star-outline" size={24} color={color}/>
@@ -61,7 +64,7 @@ export default function Routes() {
           />
           <Tab.Screen 
             name="Universidade" 
-            component={Page}
+            component={UniversityPage}
             options={{
               tabBarIcon: ({ color }) => (
                 <IoniconsIcons name="md-school" size={24} color={color}/>

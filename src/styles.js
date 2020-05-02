@@ -81,3 +81,57 @@ export const TransferValue = styled.Text`
   color: ${props => props.color};
   font-size: 20px;
 `;
+
+// University
+export const LessonList = styled.View`
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+`;
+export const LessonBox = styled.View`
+  height: 170px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding-left:  12px;
+  padding-right: 12px;
+  padding-bottom: 14px;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+`;
+export const LessonTitle = styled.Text`
+  font-size: 16px;
+`;
+export const LessonAuthorBox = styled.Text`
+  flex-direction: row;
+  margin-left: 4px;
+`;
+export const LessonAuthorName = styled.Text`
+  text-decoration: underline;
+  color: #244BBF;
+`;
+export const LessonFotter = styled.View`
+  margin-top: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const LessonTagContainer = styled.View`
+  flex-direction: row;
+`;
+export const LessonTagBox = styled.View`
+  background: ${props => props.color};
+  height: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+`;
+export const LessonTagName = styled.Text`
+  color: #fff;
+  text-align: center;
+`;
+export const LessonPointValue = styled.Text`
+  color: #32D9D9;
+  font-size: 18px;
+`;

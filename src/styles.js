@@ -52,7 +52,7 @@ export const OtherMonthButton = styled.Text`
   margin-left: 10px;
 `;
 export const TransfersList = styled.View`
-  width: 80%;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 42px;

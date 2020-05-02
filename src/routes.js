@@ -9,6 +9,7 @@ import IoniconsIcons from 'react-native-vector-icons/Ionicons';
 const Tab = createMaterialBottomTabNavigator();
 
 import Page from './pages/page';
+import OperatrionPage from './pages/Operation';
 
 export default function Routes() {
   return (
@@ -33,7 +34,7 @@ export default function Routes() {
           />
           <Tab.Screen 
             name="Histórico" 
-            component={Page}
+            component={OperatrionPage}
             options={{
               tabBarIcon: ({ color }) => (
                 <FeatherIcons name="dollar-sign" size={24} color={color}/>

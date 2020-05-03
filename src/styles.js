@@ -188,3 +188,54 @@ export const UserNotificationsDescription = styled.Text`
   line-height: 28px;
   color: ${props => props.color};
 `;
+
+// Dream
+export const DreamPathContainer = styled.View`
+  flex: 1;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 38px;
+  margin-bottom: 54px;
+  margin-right: auto;
+  margin-left: auto;
+`;
+export const DreamLevelBox = styled.View`
+  flex-direction: row-reverse;
+  align-items: center;
+`;
+export const DreamLevelImage = styled.Image`
+  margin: 0;
+  z-index: 3;
+`;
+export const DreamLevelText = styled.Text`
+  padding: 8px 18px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin: -18px;
+  z-index: 2;
+`;
+export const DreamLastLevelBox = styled(DreamLevelBox)`
+  align-self: center;
+  width: 100%;
+`;
+export const DreamLastLevelImage = styled(DreamLevelImage)``;
+export const DreamLastLevelTextContainer = styled.View`
+  flex-direction: column;
+  justify-content: space-between;
+`;
+export const DreamLastLevelText = styled(DreamLevelText)`
+  width: 260px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+`;
+export const DreamLastLevelTextResult = styled(DreamLevelText)`
+  width: 90%;
+  z-index: 1;
+  font-size: 12px;
+  background: #C6D936;
+  color: #f5f5f5;
+  margin-top: 18px;
+`;

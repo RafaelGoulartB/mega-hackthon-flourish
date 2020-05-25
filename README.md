@@ -70,3 +70,11 @@ npm install
 
 npm start
 ```
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/RafaelGoulartB/MegaHackthon-Flourish/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!

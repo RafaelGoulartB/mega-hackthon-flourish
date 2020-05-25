@@ -26,7 +26,6 @@ Projeto feito com o objetivo de gemificar a vida financeira, oferecendo um incen
   <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/inicial.png" style="margin-left:'320px'" width="180" height="380">
   <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/linha-do-tempo.png" style="width:180px; height:390px;" width="180" height="380"/>
   <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/operações.png" style="width:180px; height:390px;" width="180" height="380"/>
-  <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/recompensas.png" style="width:180px; height:390px;" width="180" height="380"/>
 </div>
 <br/>
 <div style="width:100%;display:flex;flex-direction:row; justify-content: space-between; flex-wrap: wrap;">

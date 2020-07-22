@@ -1,5 +1,11 @@
 <h1 align="center">MegaHackthon Flourish - Time 13</h1>
 <p>
+   <a href="https://github.com/RafaelGoulartB/MegaHackthon-Flourish#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/RafaelGoulartB/MegaHackthon-Flourish/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" target="_blank" />
+  </a>
   <a href="https://github.com/RafaelGoulartB/MegaHackthon-Flourish/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
@@ -7,21 +13,17 @@
 
 >Projeto da Mega Hackathon | Time Flourish(13)
 
-Projeto feito com o objetivo de gemificar a vida financeira, oferecendo um incentivo para acompanhar os seus gastos e a investir seu dinheiro.
+# :pushpin: Table of Contents
 
----
+* [Goal](#eyes-Goal)
+* [Features](#rocket-features)
+* [Technologies](#computer-technologies)
+* [Authors](#bust_in_silhouette-authors)
+* [How to run](#construction_worker-how-to-run)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [License](#closed_book-license)
 
-## 🚀 Funcionalidades do App
-  1. Adicionar e excluir despesas/receitas
-  2. Visualizar saldo
-  3. Posição no ranking de pontos
-  4. % para alcançar meta/sonho
-  5. Games
-  6. Recompensas
-  7. Teste de personalidade
-  8. Dicas de investimento
-  
-## Screenshots
 <div style="width:100%;display:flex;flex-direction:row;justify-content: space-around;flex-wrap:wrap;">
   <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/inicial.png" width="170" height="350">
   <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/linha-do-tempo.png" width="170" height="350"/>
@@ -35,7 +37,20 @@ width="170" height="350"/>
    <img src="https://raw.githubusercontent.com/RafaelGoulartB/MegaHackthon-Flourish/master/screenshots/universidade.png" width="170" height="350"/>
 </div>
 
-## 💻 Technologies
+# :eyes: Goal
+Project made with the objective of determining the financial life, offering an incentive to monitor your expenses and invest your money.
+
+# :rocket: Features
+  1. Adicionar e excluir despesas/receitas
+  2. Visualizar saldo
+  3. Posição no ranking de pontos
+  4. % para alcançar meta/sonho
+  5. Games
+  6. Recompensas
+  7. Teste de personalidade
+  8. Dicas de investimento
+  
+# :computer: Technologies
 This project was made using the follow technologies:
 <ul>
   <li><a href="https://reactnative.dev/">React Native</a></li>
@@ -45,7 +60,7 @@ This project was made using the follow technologies:
   <li><a href="https://eslint.org/">Eslint</a></li>
 </ul>
 
-## Authors
+# :bust_in_silhouette: Authors
 
 👤 **Rafael Goulart (Developer)**
 
@@ -58,7 +73,7 @@ This project was made using the follow technologies:
 👤 **Julia (Design)**
 
 
-## How to run
+# :construction_worker: How to run
 Para rodar o projeto é necessario um celular com o aplicativo do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instalado ou um emulador android/ios.
 
 ```sh
@@ -71,10 +86,16 @@ npm install
 npm start
 ```
 
-## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/RafaelGoulartB/MegaHackthon-Flourish/issues).
+# :bug: Issues
 
-## Show your support
+Feel free to **file a new issue** with a respective title and description on the the [MegaHackthon-Flourish](https://github.com/RafaelGoulartB/MegaHackthon-Flourish/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
-Give a ⭐️ if this project helped you!
+# :tada: Contributing
+
+Check out the [contributing](https://github.com/RafaelGoulartB/MegaHackthon-Flourish/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
+# :closed_book: License
+
+Released in 2020.
+This project is under the [MIT license](https://github.com/RafaelGoulartB/MegaHackthon-Flourish/master/LICENSE).
